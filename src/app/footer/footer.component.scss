@@ -1,0 +1,32 @@
+a
+{
+  text-decoration: none;
+  color: rgb(182, 166, 141);
+  opacity: 0.6;
+}
+
+
+.title
+{
+  text-transform: uppercase;
+  font-size: 13px;
+}
+
+.list, .footer-section
+{
+  display: flex;
+flex-direction: column;
+}
+
+
+.footer-section{
+  gap: 6px;
+}
+
+
+.footer-holder{
+  display: flex;
+  justify-content: space-between;
+  padding: 56px;
+  align-items: center;
+}
