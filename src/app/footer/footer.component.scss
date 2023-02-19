@@ -29,4 +29,14 @@ flex-direction: column;
   justify-content: space-between;
   padding: 56px;
   align-items: center;
+  width:80% ;
+}
+
+
+.container
+{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
 }

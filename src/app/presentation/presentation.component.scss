@@ -1,10 +1,15 @@
 .presentation{
-  margin-top: 58px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 70px;
   &__top{
     &--title{
       font-family: font3;
-      font-size: 5.139vw;
+      font-size: 6.111vw;
       line-height: 1.25;
+      margin-bottom: 40px;
     }
   }
 
@@ -12,76 +17,17 @@
     display: flex;
     justify-content: space-between;
     margin-top: 30px;
-
-    &--quote{
-      max-width: 28ch;
-      font-weight:lighter;
-      font-size: 1.1em;
-      text-align: left;
-      letter-spacing: -0.01em;
-      position: relative;
-      width: 489px;
-
-      p{
-        opacity: 0.8;
-        font-size: 1.04em;
-        line-height: 1.45;
-        margin-top: 8px;
-      }
-    }
-
-    &--portfolio{
-      display: flex;
-
-       .img {
-        width: 322px;
-        height:  400px;
-        background-image: url('../../assets/PetraruValentinIulian_09012023_Roma.jpg');
-        background-size: 602px 500px;
-        background-repeat: no-repeat;
-        background-position: 49% 10%;
-        border-radius: 20px;
-       }
-
-
-      .location{
-        margin-top: 8px;
-        display: flex;
-        align-items: center;
-        justify-content: space-between;      }
-
-      .line{
-
-        width: 170px;
-        height: 2px;
-        background-color: rgb(182, 166, 141);
-      }
-    }
   }
 }
 
-
-.immagine{
-
-  &__description{
-    width: 40%;
-    display: flex;
-    flex-direction: column;
-  }
+.container{
+  width: 80%;
 }
 
 
-.cls-1 {
-  fill: #c7b59a;
-}
-
-svg{
-  width: 24px;
-}
-
-a {
-  text-decoration: none;
-  color: #c7b59a;
-  text-transform: uppercase;
-  margin-top: 14px;
+.right
+{
+  display: flex;
+  gap: 10px;
+  padding-right: 40px;
 }
