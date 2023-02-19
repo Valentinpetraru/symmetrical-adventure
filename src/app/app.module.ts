@@ -12,6 +12,8 @@ import { QuoteComponent } from './quote/quote.component';
 import { ViewAboutComponent } from './view-about/view-about.component';
 import { HomeComponent } from './home/home.component';
 import { ChattingComponent } from './chatting/chatting.component';
+import { AboutComponent } from './about/about.component';
+import { AboutOneComponent } from './about-one/about-one.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { ChattingComponent } from './chatting/chatting.component';
     QuoteComponent,
     ViewAboutComponent,
     HomeComponent,
-    ChattingComponent
+    ChattingComponent,
+    AboutComponent,
+    AboutOneComponent
   ],
   imports: [
     BrowserModule,

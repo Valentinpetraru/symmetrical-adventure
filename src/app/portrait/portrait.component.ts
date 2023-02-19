@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-portrait',
@@ -8,7 +8,9 @@ import { Component, OnInit } from '@angular/core';
 export class PortraitComponent implements OnInit {
 
   constructor() { }
-
+  @Input() pLocation!:string;
+  @Input() pAnno!:string;
+  @Input() pSrc!:string;
   ngOnInit(): void {
   }
 

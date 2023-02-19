@@ -7,4 +7,15 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'portfolio';
+
+  ora!:string;
+constructor(){
+  setInterval(()=> {
+    let today = new Date();
+    let time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+    this.ora = time
+    return time
+  }, 1000)
+}
+
 }

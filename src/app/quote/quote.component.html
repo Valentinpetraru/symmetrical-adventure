@@ -1,7 +1,25 @@
-<div class="quote">
+<div class="quote" *ngIf="quote">
   <app-cross></app-cross>
   <div class="quote__description">
-    "ALL WE HAVE TO DECIDE IS WHAT TO DO WITH THE TIME THAT IS GIVEN US."
+    {{pDescription}}
   </div>
-  <div class="quote__author">–– Gandalf the grey</div>
+  <div class="quote__author">–– {{pAuth}}</div>
+</div>
+
+<div class="quoteP" >
+  <app-cross></app-cross>
+  <div class="quoteP__description">
+    {{pDescription}}
+  </div>
+  <div class="about">
+    <div class="scroll">
+      <div class="container-scroll">
+       <a href="#" routerLink="/about" >{{pAuth}} {{pAuth}} {{pAuth}} {{pAuth}} {{pAuth}} {{pAuth}} {{pAuth}} {{pAuth}} {{pAuth}} {{pAuth}} {{pAuth}} {{pAuth}} {{pAuth}} {{pAuth}} {{pAuth}} {{pAuth}} {{pAuth}} {{pAuth}} {{pAuth}} {{pAuth}} </a>
+      </div>
+     </div>
+    <span>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 7314.44 2612.64"><defs></defs><g id="Layer_2" data-name="Layer 2"><g id="Layer_1-2" data-name="Layer 1"><g id="Group_73" data-name="Group 73"><polygon class="cls-1" points="7264.51 1306.32 7314.44 1306.32 6033.65 2612.64 5777.12 2356.12 6645.84 1487.39 0 1487.39 0 1125.24 6645.84 1125.24 5777.12 256.52 6033.65 0 7314.44 1306.32 7264.51 1306.32"></polygon></g></g></g>
+      </svg>
+    </span>
+  </div>
 </div>

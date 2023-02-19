@@ -1,5 +1,11 @@
+.future{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
 
 .container{
+  width: 80%;
   padding: 56px;
 }
 
@@ -39,4 +45,21 @@ font-size: 1.04em;
     line-height: 1.36;
     font-weight: 400;
     letter-spacing: -0.01em;
+}
+
+.chatting{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+  margin-bottom: 55px;
+
+  &__top{
+    &--title{
+      font-family: font3;
+      font-size: 6.111vw;
+      line-height: 1.25;
+      margin-bottom: 40px;
+    }
+  }
 }

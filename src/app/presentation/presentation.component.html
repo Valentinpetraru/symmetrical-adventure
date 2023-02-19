@@ -1,15 +1,15 @@
 <div class="presentation">
   <div class="container">
   <div class="presentation__top">
-    <h2 class="presentation__top--title">I am 15 years old</h2>
+    <h2 class="presentation__top--title">{{pTitle}}</h2>
   </div>
 
   <div class="presentation__down">
-    <app-quote></app-quote>
+    <app-quote [quote]="quote" [pAuth]="pAuth" [pDescription]="pDescription"></app-quote>
     <div class="right">
 
-      <app-portrait></app-portrait>
-      <app-view-about></app-view-about>
+      <app-portrait [pAnno]="pAnno" [pLocation]="pLocation"></app-portrait>
+      <app-view-about [pNone]="pNone" [pQuote]="pQuote"></app-view-about>
     </div>
   </div>
 </div>
