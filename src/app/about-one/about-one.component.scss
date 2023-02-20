@@ -1,0 +1,61 @@
+
+
+.chatting{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+  margin-bottom: 95px;
+
+  &__top{
+    &--title{
+      font-family: font3;
+      font-size: 6.111vw;
+      line-height: 1.25;
+      margin-bottom: 40px;
+    }
+  }
+
+  &__down{
+    display: flex;
+    gap: 20px;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 95%;
+
+    &--redirect{
+    max-width: 300px;
+
+    p{
+      font-size: 1.04em;
+    line-height: 1.45;
+      opacity: 0.8;
+    }
+
+    }
+
+    &--purpose{
+      position: relative;
+      max-width: 52%;
+
+      div{
+        font-size: 25px;
+      }
+    }
+  }
+
+}
+
+.container{
+  width: 80%;
+}
+
+
+
+
+
+
+
+
+
+

@@ -12,7 +12,7 @@ export class HomeComponent implements OnInit {
   pLocation ="Roma"
   pQuote ="You might think that is a bit young to be doing all of this, but I am not your average teen. You see, instead of wasting my time playing video games, I try to spend as much time as possible on making my ambitions become reality."
   pTitle= 'I am 15 years old'
-
+ pNone = true;
   constructor() { }
 
   ngOnInit(): void {

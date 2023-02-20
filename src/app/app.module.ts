@@ -14,6 +14,11 @@ import { HomeComponent } from './home/home.component';
 import { ChattingComponent } from './chatting/chatting.component';
 import { AboutComponent } from './about/about.component';
 import { AboutOneComponent } from './about-one/about-one.component';
+import { AboutTopComponent } from './about-top/about-top.component';
+import { AboutSecondComponent } from './about-second/about-second.component';
+import { Page404Component } from './page404/page404.component';
+import { EarlyComponent } from './early/early.component';
+import { MenuComponent } from './menu/menu.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +33,12 @@ import { AboutOneComponent } from './about-one/about-one.component';
     HomeComponent,
     ChattingComponent,
     AboutComponent,
-    AboutOneComponent
+    AboutOneComponent,
+    AboutTopComponent,
+    AboutSecondComponent,
+    Page404Component,
+    EarlyComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,

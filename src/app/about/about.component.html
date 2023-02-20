@@ -1,29 +1,42 @@
 <div class="grained-effect">
   <div id="grained" class="grained _0" style="position: relative; overflow: hidden;"></div>
   <div id="grained" class="grained"></div>
-  <app-section-future></app-section-future>
-  <app-presentation
-  [pAnno]="pAnno"
-  [pAuth]="pAuth"
-  [pDescription]="pDescription"
-  [pLocation]="pLocation"
-  [pQuote]="pQuote"
-  [pTitle]="pTitle"
-  [quote]="quote"
-  ></app-presentation>
+  <div class="container">
+    <div class="cont">
+      <app-about-top></app-about-top>
+      <app-about-second></app-about-second>
+      <app-section-future></app-section-future>
+      <app-about-one></app-about-one>
+      <div class="pres">
+        <app-presentation
+        [pAnno]="pAnno"
+        [pAuth]="pAuth"
+        [pDescription]="pDescription"
+        [pLocation]="pLocation"
+        [pQuote]="pQuote"
+        [pTitle]="pTitle"
+        [quote]="quote"
+        ></app-presentation>
 
-  <app-presentation
-  [pAnno]="ppAnno"
-  [pAuth]="ppAuth"
-  [pDescription]="ppDescription"
-  [pLocation]="ppLocation"
-  [pQuote]="ppQuote"
-  [pTitle]="ppTitle"
-  [quote]="quote"
-  ></app-presentation>
-  <app-chatting></app-chatting>
+        <app-presentation
+        [pAnno]="ppAnno"
+        [pAuth]="ppAuth"
+        [pDescription]="ppDescription"
+        [pLocation]="ppLocation"
+        [pQuote]="ppQuote"
+        [pTitle]="ppTitle"
+        [quote]="quote"
+        ></app-presentation>
+      </div>
+
+      <app-chatting></app-chatting>
+    </div>
+  </div>
+
+
   <p class="data">{{ora}}</p>
-<p class="menu">MENU</p>
-<p  class="anno">©2023</p>
+ <p class="menu">MENU</p>
+ <p  class="anno">©2023</p>
 </div>
 
+<app-footer></app-footer>
